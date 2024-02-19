@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>太白</title>
+	<meta name="keywords" content="HTML5,美观,简洁大气,响应式,第三方登录,网页模板" />
+	<meta name="description" content="HTML5美观简洁大气响应式带第三方登录网页模板下载。鼠标经过登录按钮带紫色渐变炫酷动画效果。带有简单的表单验证功能。" /> 
+
+	<link rel="stylesheet" type="text/css" href="./js/login/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="http://demo.sucaihuo.com/modals/49/4919/demo/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	
+
+	<!-- <link rel="stylesheet" type="text/css" href="./js/login/font-awesome.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="./js/login/material-design-iconic-font.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="http://demo.sucaihuo.com/modals/49/4919/demo/fonts/iconic/css/material-design-iconic-font.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="../js/login/util.css">
+	<link rel="stylesheet" type="text/css" href="../js/login/main.css">
+	<style>
+	.J_codeimg{z-index:-1;position:absolute;}
+	.login100-form {
+	    width: 90%;
+	    padding: 30px;
+	    background: #a4a4a4;
+      opacity: 0.9;
+	    z-index: 999;
+      margin: auto;
+	    /* position: fixed; */
+	    color: #fff;
+	    border-radius: 20px;
+	    top: 10%;
+	    left: 10%;
+      /* box-shadow: 2px 2px rgb(223, 223, 121); */
+	}
+
+          body{
+                    margin: 0;
+
+          }
+          .big{
+                    font-size: 20px;
+                    color: black;
+                    text-shadow: 1px 1px rgb(255, 255, 255);
+                    background-color: rgb(157, 232, 232);
+                    border-radius: 5px ;
+                    box-shadow: 2px 2px black;
+                    padding: 2px;
+                    width: 40%;
+                    opacity: 0.9;
+                    font-family: 'fangsong';
+                    font-weight: bold;
+                    overflow: auto;
+          }
+
+          a{
+                    font-size: 28px;
+                    font-family: "fangsong";
+                    font-weight: bold;
+          }
+          .ul1{
+                    line-height: 30px;
+                    /* margin-top: -10px; */
+                    line-height: 45px;
+                    
+          }
+          .limiter{
+                    position: relative;
+          }
+
+          /* 设置容器的高度和宽度，以及溢出属性 */
+          #scrollableDiv {
+            /* width: 100%; */
+            /* height: 200px; */
+            overflow: auto;
+            border: 1px solid #ccc; /* 添加边框，使滚动条更明显 */
+            padding: 10px; /* 可选的内边距 */
+          }
+
+          .title{
+            /* position: relative; */
+            font-size: 30px;
+            font-family: "heiti";
+            color: black;
+            text-shadow: 1px 1px white;
+            font-weight:900;
+
+          }
+          .img1{
+            width: 10%;
+            border-radius: 5px;
+            border: 1px solid black;
+            /* border: 1px solid black; */
+            /* height: 20%; */
+            /* position: fixed; */
+            /* margin-left: 500px; */
+            /* margin-top: -100px; */
+          }
+
+          table{
+            text-shadow: 1px 1px rgba(255, 255, 255, 0.446);
+          }
+
+	</style>
+</head>
+
+<body>
+	<canvas id="canvas" style="position: fixed;width: 100%;height: 100vh;"></canvas> 
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('./image/bg-01.jpg');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+                                        <form class="login100-form validate-form" style="overflow: auto;">
+ 
+                                                  <div class="title">罗启明 —— 在校经历 & 实习经历 & 证明材料</div><br>
+                                                  <div class="title">2020级本科  2024届毕业生</div><br>
+                                                  <img src="./prove/头像.jpg" class="img1"><br>
+                                                  <div class="title">↓点击链接查看详情↓</div><br>
+
+                                                  <!-- 总共24个图片 -->
+
+                                                  <table>
+                                                  <!-- 比赛，竞赛 -->
+                                                      <tr>
+                                                            <li class="big">竞赛、比赛、交流项目</li>
+                                                          <td>
+                                                              <ul class="ul1">
+                                                                  <a href="./prove/全国数学竞赛一等奖.jpg">全国大学生数学建模竞赛省一等奖</a><br>
+                                                                  <a href="./prove/广汇源杯.jpg">广东省智慧水利创新大赛——广汇源杯省三等奖</a><br>
+                                                                  <a href="./prove/互联网+.jpg">第9届互联网+广东省分赛铜奖</a><br>
+                                                                  <a href="./prove/创新创业大赛.jpg">互联网+创新创业大赛项目负责人</a><br>
+                                                                  <a href="./prove/国际交流项目.jpg">牛津大学国际交流项目</a><br>
+
+                                                              </ul>
+                                                          </td>
+                                                          <td>
+                                                              <ul class="ul1">
+                                                                  <a href="./prove/绘画比赛 (2).png">校级绘画比赛校级三等奖</a><br>
+                                                                  <a href="./prove/外研社英语演讲比赛.jpg">外研社•国才杯校级英语演讲比赛一等奖</a><br>
+                                                                  <a href="./prove/机械设计创新大赛.jpg">第十届广东省机械设计创新大赛广东赛区优秀奖</a><br>
+                                                                  <a href="./prove/社会实践 (2).png">社会实践证明材料</a><br>
+                                                                  <a href="./prove/合唱比赛二等奖.jpg">大学生红色革命歌曲合唱大赛校级二等奖</a><br>
+                                                              </ul>
+                                                          </td>
+                                                          <td>
+                                                            <ul class="ul1">
+                                                                <a href="./prove/三等奖学金.jpg">2020~2021年度校级三等奖学金</a><br>
+                                                                <a href="./prove/互联网+校赛.jpg">第9届互联网+东莞理工学院选拔赛二等奖</a><br>
+
+                                                            </ul>
+                                                        </td>
+                                                      </tr>
+                                                  </table>
+
+                                                  <table>
+                                                            <!-- 比赛，竞赛 -->
+                                                                <tr>
+                                                                      <li class="big">等级证书</li>
+                                                                    <td>
+                                                                        <ul class="ul1">
+                                                                            <a href="./prove/四级.JPG">英语四级(CET4)</a><br>
+                                                                            <a href="./prove/普通话考试.JPG">普通话等级</a>       
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>
+                                                                      <ul class="ul1">
+                                                                          <a href="./prove/六级.JPG">英语六级(CET6)</a><br>
+                                                                          <a href="./prove/四级.JPG">英语四级口语A级</a><br>
+                                                                      </ul>
+                                                                  </td>
+                                                                </tr>
+                                                  </table>
+
+                                                  <table>
+                                                            <!-- 比赛，竞赛 -->
+                                                                <tr>
+                                                                      <li class="big">担任职位</li>
+                                                                    <td>
+                                                                        <ul class="ul1">
+                                                                            <a href="./prove/组织部部长.jpg">知行团学组织部部长 & 团支书</a><br>
+                                                                            <a href="./prove/绿色环保协会.jpg">绿色环保协会外联部干事</a><br>
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>
+                                                                      <ul class="ul1">
+                                                                          <a href="./prove/实验室聘书.jpg">DGUT仿生实验室实验室成员聘书</a><br>
+                                                                      </ul>
+                                                                  </td>
+                                                                </tr>
+                                                  </table>
+
+                                                  <table>
+                                                            <!-- 比赛，竞赛 -->
+                                                                <tr>
+                                                                      <li class="big">志愿服务</li>
+                                                                    <td>
+                                                                        <ul class="ul1">
+                                                                            <a href="./prove/志愿服务.jpg">志愿服务（部分）截图</a><br>
+                                                                            <a href="./prove/志愿服务时长.jpg">i志愿APP志愿服务时长</a><br>
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>
+                                                                      <ul class="ul1">
+                                                                          <a href="./prove/志愿服务工作者.jpg">先进志愿服务工作者</a><br>
+                                                                          <a href="./prove/优秀志愿者.jpg">机器人挑战赛优秀志愿者</a><br>          
+                                                                      </ul>
+                                                                  </td>
+
+                                                                </tr>
+                                                  </table>
+
+
+
+                                                  <table>
+                                                    <!-- 比赛，竞赛 -->
+                                                        <tr>
+                                                              <li class="big">实习相关</li>
+                                                            <td>
+                                                                <ul class="ul1">
+                                                                  <a href="./pdf.html">实习相关详情</a><br>
+                                                                </ul>
+                                                            </td>
+
+                                                        </tr>
+                                                  </table>
+
+
+                                                  <table>
+                                                    <!-- 比赛，竞赛 -->
+                                                        <tr>
+                                                              <li class="big">成绩单</li>
+                                                            <td>
+                                                                <ul class="ul1">
+                                                                  <a href="./score.html">本科成绩单相关详情</a><br>
+                                                                </ul>
+                                                            </td>
+
+                                                        </tr>
+                                                  </table>
+
+                                                  
+                                                  <table>
+                                                    <!-- 比赛，竞赛 -->
+                                                        <tr>
+                                                              <li class="big">学信网认证</li>
+                                                            <td>
+                                                                <ul class="ul1">
+                                                                  <a href="./prove/学信网.png">学信网认证详情</a><br>
+                                                                </ul>
+                                                            </td>
+
+                                                        </tr>
+                                                  </table>
+
+                                              </form>
+                                            
+                                                                          
+
+
+
+
+
+
+
+   
+			</div>
+		</div>
+	</div>
+	<script>
+	$(document).ready(function() {
+	  //验证码
+	  createCode();
+	});
+	</script>
+	<script src="../js/login/jquery-3.2.1.min.js"></script>
+	<script src="../js/login/main.js"></script>
+	<script>
+	//宇宙特效
+	"use strict";
+	var canvas = document.getElementById('canvas'),
+	  ctx = canvas.getContext('2d'),
+	  w = canvas.width = window.innerWidth,
+	  h = canvas.height = window.innerHeight,
+	 
+	  hue = 217,
+	  stars = [],
+	  count = 0,
+	  maxStars = 2500;//星星数量
+	 
+	var canvas2 = document.createElement('canvas'),
+	  ctx2 = canvas2.getContext('2d');
+	canvas2.width = 100;
+	canvas2.height = 100;
+	var half = canvas2.width / 2,
+	  gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+	gradient2.addColorStop(0.025, '#CCC');
+	gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+	gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+	gradient2.addColorStop(1, 'transparent');
+	 
+	ctx2.fillStyle = gradient2;
+	ctx2.beginPath();
+	ctx2.arc(half, half, half, 0, Math.PI * 2);
+	ctx2.fill();
+	 
+	// End cache
+	 
+	function random(min, max) {
+	  if (arguments.length < 2) {
+	    max = min;
+	    min = 0;
+	  }
+	 
+	  if (min > max) {
+	    var hold = max;
+	    max = min;
+	    min = hold;
+	  }
+	 
+	  return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+	 
+	function maxOrbit(x, y) {
+	  var max = Math.max(x, y),
+	    diameter = Math.round(Math.sqrt(max * max + max * max));
+	  return diameter / 2;
+	  //星星移动范围，值越大范围越小，
+	}
+	 
+	var Star = function() {
+	 
+	  this.orbitRadius = random(maxOrbit(w, h));
+	  this.radius = random(60, this.orbitRadius) / 18; 
+	  //星星大小
+	  this.orbitX = w / 2;
+	  this.orbitY = h / 2;
+	  this.timePassed = random(0, maxStars);
+	  this.speed = random(this.orbitRadius) / 500000; 
+	  //星星移动速度
+	  this.alpha = random(2, 10) / 10;
+	 
+	  count++;
+	  stars[count] = this;
+	}
+	 
+	Star.prototype.draw = function() {
+	  var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+	    y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+	    twinkle = random(10);
+	 
+	  if (twinkle === 1 && this.alpha > 0) {
+	    this.alpha -= 0.05;
+	  } else if (twinkle === 2 && this.alpha < 1) {
+	    this.alpha += 0.05;
+	  }
+	 
+	  ctx.globalAlpha = this.alpha;
+	  ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+	  this.timePassed += this.speed;
+	}
+	 
+	for (var i = 0; i < maxStars; i++) {
+	  new Star();
+	}
+	 
+	function animation() {
+	  ctx.globalCompositeOperation = 'source-over';
+	  ctx.globalAlpha = 0.5; //尾巴
+	  ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 2)';
+	  ctx.fillRect(0, 0, w, h)
+	 
+	  ctx.globalCompositeOperation = 'lighter';
+	  for (var i = 1, l = stars.length; i < l; i++) {
+	    stars[i].draw();
+	  };
+	 
+	  window.requestAnimationFrame(animation);
+	}
+	 
+	animation();
+	</script>
+</body>
+
+</html>
+
